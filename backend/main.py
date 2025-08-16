@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from .database import engine, Base
-from . import models
-from .routers import templates, content
+from database import engine, Base
+import models
+from routers import templates, content
 
 app = FastAPI(title="Markdown-Based Blog Management System")
 
