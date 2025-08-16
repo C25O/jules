@@ -1,7 +1,7 @@
 import datetime
 from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey, JSON
 from sqlalchemy.orm import relationship
-from .database import Base
+from database import Base
 
 class PageTemplate(Base):
     __tablename__ = "page_templates"

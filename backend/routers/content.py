@@ -3,8 +3,8 @@ from fastapi.responses import PlainTextResponse
 from sqlalchemy.ext.asyncio import AsyncSession
 from typing import List
 
-from .. import crud, schemas, services
-from ..database import SessionLocal
+import crud, schemas, services
+from database import SessionLocal
 
 router = APIRouter()
 
