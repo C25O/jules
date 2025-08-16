@@ -1,5 +1,5 @@
 import yaml
-from . import models
+import models
 
 def generate_markdown_from_item(item: models.ContentItem) -> str:
     """

@@ -2,7 +2,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
 from sqlalchemy.orm import selectinload, joinedload
 
-from . import models, schemas
+import models, schemas
 
 
 # --- Template CRUD Operations ---
